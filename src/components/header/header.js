@@ -54,12 +54,6 @@ function Header() {
                 <Nav.Link onClick={() => window.location.replace("/#mint")}>
                   Mint
                 </Nav.Link>
-                <Nav.Link onClick={() => window.location.replace("/#team")}>
-                  TEAM
-                </Nav.Link>
-                <Nav.Link onClick={() => window.location.replace("/#roadmap")}>
-                  ROADMAP
-                </Nav.Link>
                 <Nav.Link>
                   <YButton text="OPENSEA" />
                 </Nav.Link>

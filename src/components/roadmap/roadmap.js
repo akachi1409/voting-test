@@ -48,6 +48,14 @@ function RoadMap() {
         })
     },[polls])
 
+    useEffect(()=>{
+        console.log(data.pollContract);
+        if (data.pollContract != null){
+            console.log("----")
+            navigate("/poll")
+        }
+    }, [data.pollContract])
+
     const createPoll = (e) =>{
         navigate("/create-poll");
     }
@@ -88,7 +96,7 @@ function RoadMap() {
                                         return(<RoadMapItem key={index}
                                             tag= {item.title}
                                             title= "Owner"
-                                            content= "item.content" />)
+                                            content= {item.url} />)
                                     })
                                 }
                                 <div style={{ textAlign: "center", marginTop:"3em"}}>
