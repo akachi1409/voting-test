@@ -50,20 +50,20 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
-              <Nav>
+              {/* <Nav>
                 <Nav.Link onClick={() => window.location.replace("/#mint")}>
                   Mint
                 </Nav.Link>
                 <Nav.Link>
                   <YButton text="OPENSEA" />
                 </Nav.Link>
-              </Nav>
+              </Nav> */}
             </Navbar.Collapse>
           </Container>
         </Navbar>
         <div className="header-content">
           <h1>
-            SPOOKY BOYS <br /> COUNTRY CLUB
+            Create Poll<br /> For Voting
           </h1>
           {blockchain.account === "" || blockchain.smartContract === null ? (
             <div className="flex-column">

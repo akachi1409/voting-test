@@ -7,10 +7,10 @@
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    height: 720px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 100%;
+    height: 100vh;
+    /* background-position: 100% 100%; */
 }
 
 .header-control .navbar {

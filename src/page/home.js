@@ -5,6 +5,7 @@ function Home() {
   return (
     <div>
       <RoadMap />
+      <Footer/>
     </div>
   );
 }
