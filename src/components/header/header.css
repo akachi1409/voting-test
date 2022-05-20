@@ -67,3 +67,10 @@
 .nav-item :hover {
     color: blue;
 }
+.header-content-buttons-container{
+    margin-top: 2em;
+}
+
+.item-center{
+    text-align: center;
+}
